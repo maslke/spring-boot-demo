@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: client-load-balancing
+eureka:
+  client:
+    service-url:
+      default-zone: localhost:8761/eureka
