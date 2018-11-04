@@ -1,0 +1,28 @@
+my:
+  servers:
+    - dev.example.com
+    - other.example.com
+  hosts:
+    - http://baidu.com
+    - http://google.com.hk
+    - http://163.com
+  name:
+    first-name: feng
+    last-name: hana
+  name2:
+    firstName: liu
+    lastName: halu
+---
+spring:
+  profiles: dev
+my:
+  servers:
+  - dev.example.com
+  hosts:
+  - http://baidu.com
+  name:
+    first-name: feng
+    last-name: hana
+  name2:
+    firstName: liu
+    lastName: halu
